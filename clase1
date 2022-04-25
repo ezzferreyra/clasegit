@@ -1,0 +1,30 @@
+-- command confing
+
+$ git config [--options] user.name = "name"
+$ git config [--options] user.name = "name@email.com"
+
+
+--options
+
+* system: almacena valores para todos los usuarios del sistema y todos sus repos
+* global: especifico de un usuario
+* local:  confugura en el remo que esten usando actualmente
+
+
+
+$ git config [--global] user.name "nombrenuevo" --replace-all
+
+$git config --global --list
+
+INICIALIZAR REPOSITORIOS
+
+existen dos formas de comenzar a trabajar con un prooyecto Git,
+1- apartir de un proyecto que ya existe en el remoto(Github-gitlab-bitbuket-etc)
+2- tener una carpeta local y queremos convertirla en un repositorio Git
+
+Caso 1: apartir de un repositorio en algun gestor remoto (Githab-bitbucket-etc)  ---> se clona
+ 
+
+
+
+Caso 2: ya existe la carpeta en mi maquina local
